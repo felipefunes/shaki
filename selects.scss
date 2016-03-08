@@ -1,6 +1,6 @@
 // Selects
 
-.ad-selectfield {
+.sh-selectfield {
   position: relative;
   min-height: $min-height-input;
   min-width: 150px;
@@ -8,7 +8,7 @@
   background: $color-background;
 }
 
-.ad-selectfield__caret {
+.sh-selectfield__caret {
   position: absolute;
   height: 0;
   width: 0;
@@ -20,7 +20,7 @@
   border-top-color: $color-font;
 }
 
-.ad-selectfield__select {
+.sh-selectfield__select {
   position: absolute;
   font-size: inherit;
   z-index: 2;
