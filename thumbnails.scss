@@ -1,0 +1,44 @@
+// Thumbnails
+
+.sh-thumbs {
+  width: 102%;
+  margin-left: -2%;
+}
+.sh-thumbs__item {
+  float: left;
+  margin-left: 2%;
+  margin-bottom: 1.8%;
+}
+.sh-thumbs__link {
+  display: block;
+  text-decoration: none;
+  &:hover {
+    .ad-thumbs__title { color: $color-link; }
+  }
+}
+
+// Grid variations
+.sh-thumbs__item--4 {
+  width: 23%;
+}
+.sh-thumbs__item--5 {
+  width: 18%;
+}
+
+// Images
+.sh-thumbs__cover-img {
+  height: 0;
+  padding-top: 56.25%;
+  margin-bottom: 3.5%;
+  background-size: cover;
+}
+
+// Typographys
+.sh-thumbs__title {
+  font-size: .7rem;
+  line-height: 1.4em;
+  height: 4.2em;
+  margin-bottom: .5em;
+  color: $color-font;
+  font-weight: 600;
+}
