@@ -1,0 +1,20 @@
+html {
+  -webkit-font-smoothing: antialiased;
+     -moz-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+}
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-font-smoothing: inherit;
+     -moz-font-smoothing: inherit;
+  -webkit-tap-highlight-color: transparent;
+}
+body {
+  color: $color-font;
+  background: white;
+  -webkit-overflow-scrolling: touch;
+}
