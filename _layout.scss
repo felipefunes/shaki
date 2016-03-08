@@ -1,0 +1,32 @@
+// Clearfix to wrap floats elements
+.clearfix {
+  *zoom: 1;
+  &:before,
+  &:after {
+    display: table;
+    content: "";
+    line-height: 0;
+  }
+  &:after {
+    clear: both;
+  }
+}
+
+// Helper classes to center elements
+.table-display {
+  display: table;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  .cell-display {
+    display: table-cell;
+    vertical-align: middle;
+  }
+}
+
+// Containers
+.sh-container-main {
+  width: 1040px;
+  max-width: 100%;
+  margin: 0 auto;
+}
