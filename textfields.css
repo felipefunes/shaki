@@ -1,0 +1,22 @@
+// Textfields
+
+.ad-textfield {
+  position: relative;
+}
+
+.ad-textfield__input {
+  font-size: inherit;
+  min-height: $min-height-input;
+  max-width: 100%;
+  padding: $padding-input;
+  vertical-align: middle;
+  border: $input-border-width solid $color-border-inputs;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  -webkit-border-radius: 0;
+     -moz-border-radius: 0;
+      -ms-border-radius: 0;
+       -o-border-radius: 0;
+          border-radius: 0;
+}
