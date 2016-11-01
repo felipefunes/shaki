@@ -1,5 +1,5 @@
 // Clearfix to wrap floats elements
-.clearfix {
+.sh-clearfix {
   *zoom: 1;
   &:before,
   &:after {
@@ -13,12 +13,12 @@
 }
 
 // Helper classes to center elements
-.table-display {
+.sh-table-display {
   display: table;
   width: 100%;
   height: 100%;
   text-align: center;
-  .cell-display {
+  .sh-cell-display {
     display: table-cell;
     vertical-align: middle;
   }
