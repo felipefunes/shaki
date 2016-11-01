@@ -18,3 +18,9 @@ body {
   background: white;
   -webkit-overflow-scrolling: touch;
 }
+
+// Disable pointer events on hover
+.sh-disable-hover,
+.sh-disable-hover * {
+  pointer-events: none !important;
+}
